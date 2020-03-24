@@ -1,0 +1,11 @@
+build:
+    docker:
+        worker: Dockerfile.worker
+
+#release:
+#    command:
+#    - ./deployment-tasks.sh
+#    image: worker
+
+run:
+    worker: node worker.js

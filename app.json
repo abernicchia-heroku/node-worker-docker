@@ -1,0 +1,19 @@
+{
+  "env": {
+    "MY_SECRET_TOKEN": {
+      "description": "A secret key for verifying the integrity of signed cookies.",
+      "value": "secret"
+    },
+    "WEB_CONCURRENCY": {
+      "description": "The number of processes to run.",
+      "value": "5"
+    }
+  },
+  "formation": {
+    "worker": {
+      "quantity": 2,
+      "size": "Private-S"
+    }    
+  },
+  "stack": "container"
+}
