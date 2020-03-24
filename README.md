@@ -2,6 +2,8 @@
 
 Redis-backed background worker example using [OptimalBits/bull](https://github.com/OptimalBits/bull) and [throng](https://github.com/hunterloftis/throng).
 
+[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
+
 ## Docker setup
 Use the following commands to create a set of containers:
 - exposing a port to interact with from the Host
