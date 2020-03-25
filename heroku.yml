@@ -9,12 +9,17 @@ build:
 
 run:
 #    worker: node worker.js
-    worker-a:
+    worker:
       command:
         - node worker.js
       image: worker
-      
+
     worker-b:
       command:
         - node worker.js
       image: worker
+
+      worker-c:
+        command:
+          - node worker.js
+        image: worker
