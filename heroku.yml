@@ -8,4 +8,13 @@ build:
 #    image: worker
 
 run:
-    worker: node worker.js
+#    worker: node worker.js
+    worker-a:
+      command:
+        - node worker.js
+      image: worker
+      
+    worker-b:
+      command:
+        - node worker.js
+      image: worker
