@@ -19,7 +19,7 @@ run:
         - node worker.js
       image: worker
 
-      worker-c:
-        command:
-          - node worker.js
-        image: worker
+    worker-c:
+      command:
+        - node worker.js
+      image: worker
